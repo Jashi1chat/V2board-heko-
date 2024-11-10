@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2Board - 安全、快速的 V2Ray 管理面板</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-white">
+    <header class="bg-white shadow-sm fixed top-0 left-0 right-0 z-10">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">V2Board</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">功能</a>
+                <a href="#pricing" class="text-gray-600 hover:text-blue-600 transition duration-300">价格</a>
+                <a href="#steps" class="text-gray-600 hover:text-blue-600 transition duration-300">使用步骤</a>
+                <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">常见问题</a>
+                <a href="#feedback" class="text-gray-600 hover:text-blue-600 transition duration-300">客户反馈</a>
+                <a href="/#/login" class="inline-block px-4 py-2 text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition duration-300">登录</a>
+            </div>
+            <button class="md:hidden text-gray-600 hover:text-blue-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section class="bg-blue-50 py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">安全、快速的 V2Ray 管理面板</h1>
+                <p class="text-xl mb-8 text-gray-600">轻松管理您的 V2Ray 服务器，提供卓越的用户体验</p>
+                <a href="/#/login" class="inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">
+                    立即开始
+                    <svg class="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">主要功能</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <svg class="w-12 h-12 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">高速连接</h3>
+                        <p class="text-gray-600">使用最新的 V2Ray 核心，确保您的连接始终保持最佳状态。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <svg class="w-12 h-12 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">安全加密</h3>
+                        <p class="text-gray-600">采用强大的加密算法，保护您的在线隐私和数据安全。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <svg class="w-12 h-12 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">全球节点</h3>
+                        <p class="text-gray-600">提供遍布全球的高质量节点，让您畅享无阻碍的网络体验。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <svg class="w-12 h-12 text-blue-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">流媒体支持</h3>
+                        <p class="text-gray-600">支持 Netflix、YouTube、Disney+ 等流行流媒体服务。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="py-20 bg-blue-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">选择您的计划</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">基础版</h3>
+                        <p class="text-4xl font-bold mb-6 text-blue-600">¥19<span class="text-sm font-normal text-gray-600">/月</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">100GB 流量/月</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">2 个设备同时在线</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">100Mbps 带宽</span>
+                            </li>
+                        </ul>
+                        <a href="/#/login" class="block w-full text-center bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">选择计划</a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">高级版</h3>
+                        <p class="text-4xl font-bold mb-6 text-blue-600">¥39<span class="text-sm font-normal text-gray-600">/月</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">500GB 流量/月</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">5 个设备同时在线</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">500Mbps 带宽</span>
+                            </li>
+                        </ul>
+                        <a href="/#/login" class="block w-full text-center bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">选择计划</a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">专业版</h3>
+                        <p class="text-4xl font-bold mb-6 text-blue-600">¥79<span class="text-sm font-normal text-gray-600">/月</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">不限流量</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">10 个设备同时在线</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="text-gray-600">不限速</span>
+                            </li>
+                        </ul>
+                        <a href="/#/login" class="block w-full text-center bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">选择计划</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="steps" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">使用步骤</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl font-bold text-blue-600">1</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">注册账户</h3>
+                        <p class="text-gray-600">在我们的网站上快速注册一个新账户。</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl font-bold text-blue-600">2</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">选择套餐</h3>
+                        <p class="text-gray-600">根据您的需求选择合适的套餐计划。</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl font-bold text-blue-600">3</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">下载客户端</h3>
+                        <p class="text-gray-600">下载并安装适合您设备的V2Ray客户端。</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl font-bold text-blue-600">4</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-600">开始使用</h3>
+                        <p class="text-gray-600">使用提供的配置信息设置客户端，即可开始畅享高速网络。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-20 bg-blue-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">常见问题</h2>
+                <div class="space-y-6 max-w-3xl mx-auto">
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="flex justify-between items-center w-full px-6 py-4 text-left">
+                            <span class="text-lg font-semibold text-blue-600">什么是V2Board？</span>
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                        <div class="px-6 pb-4">
+                            <p class="text-gray-600">V2Board是一个强大的V2Ray管理面板，它提供了简单易用的界面来管理和配置您的V2Ray服务器。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="flex justify-between items-center w-full px-6 py-4 text-left">
+                            <span class="text-lg font-semibold text-blue-600">如何选择适合我的套餐？</span>
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                        <div class="px-6 pb-4">
+                            <p class="text-gray-600">根据您的使用需求选择套餐。如果您只是偶尔使用，基础版可能就足够了。如果您需要更多的流量和更快的速度，可以考虑高级版或专业版。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="flex justify-between items-center w-full px-6 py-4 text-left">
+                            <span class="text-lg font-semibold text-blue-600">V2Board支持哪些设备？</span>
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                        <div class="px-6 pb-4">
+                            <p class="text-gray-600">V2Board支持Windows、MacOS、iOS、Android等多种操作系统，您可以在各种设备上使用我们的服务。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 新增的客户反馈部分 -->
+        <section id="feedback" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">客户反馈</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.pravatar.cc/60?img=1" alt="Customer 1" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">张三</h3>
+                                <p class="text-gray-600">企业用户</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"V2Board的服务质量超出了我的预期。稳定性和速度都非常出色，客户支持也很及时。强烈推荐给需要可靠VPN服务的用户。"</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.pravatar.cc/60?img=2" alt="Customer 2" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">李四</h3>
+                                <p class="text-gray-600">个人用户</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"作为一个经常旅行的人，V2Board为我提供了稳定的网络访问。无论我在世界哪个角落，都能轻松连接，真的很棒！"</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.pravatar.cc/60?img=3" alt="Customer 3" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">王五</h3>
+                                <p class="text-gray-600">技术专家</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"V2Board的技术实现非常出色。作为一个IT专业人士，我对其安全性和性能印象深刻。绝对是市面上最好的VPN服务之一。"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">关于我们</h3>
+                    <p class="text-blue-100">V2Board 提供安全、快速、可靠的 V2Ray 管理解决方案。</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-100 hover:text-white transition duration-300">首页</a></li>
+                        <li><a href="#features" class="text-blue-100 hover:text-white transition duration-300">功能</a></li>
+                        <li><a href="#pricing" class="text-blue-100 hover:text-white transition duration-300">价格</a></li>
+                        <li><a href="#steps" class="text-blue-100 hover:text-white transition duration-300">使用步骤</a></li>
+                        <li><a href="#faq" class="text-blue-100 hover:text-white transition duration-300">常见问题</a></li>
+                        <li><a href="#feedback" class="text-blue-100 hover:text-white transition duration-300">客户反馈</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">联系我们</h3>
+                    <p class="text-blue-100">邮箱：support@v2board.com</p>
+                    <p class="text-blue-100">电话：+86 123 4567 8901</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-100 hover:text-white transition duration-300">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-blue-100 hover:text-white transition duration-300">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-blue-100 hover:text-white transition duration-300">
+                            <span class="sr-only">GitHub</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-blue-500 pt-8 text-center">
+                <p class="text-blue-100">&copy; 2023 V2Board. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
